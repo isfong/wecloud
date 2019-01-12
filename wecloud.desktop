@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Wecloud
+Icon=/opt/wecloud/resources/app/icon.png
+Exec=/opt/wecloud/wecloud
+Comment=Wecloud
+Categories=Network;
+Terminal=false
+StartupWMClass=Wecloud
