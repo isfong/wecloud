@@ -2,7 +2,7 @@
 
 安装方法
 
-- `git clone`
+- `git clone https://github.com/isfong/wecloud.git`
 - `cd wecloud`
 - `npm install`
 - `npm run package`
