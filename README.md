@@ -1,10 +1,13 @@
 # 腾讯微云Linux版
 
-安装方法
+# install
+```shell script
+yarn
+```
 
-- `git clone https://github.com/isfong/wecloud.git`
-- `cd wecloud`
-- `npm install`
-- `npm run package`
-- `sudo cp ./OutApp/wecloud-linux-x64/ /opt/wecloud`
-- `sudo cp ./OutApp/wecloud-linux-x64/resources/app/wecloud.desktop /usr/share/applications/`
+# package
+```shell script
+electron-builder --win
+```
+
+#### on macOS download the packaging Dependencies to ~/Library/Caches/electron/

@@ -22,7 +22,11 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "Family Mart Control"
+      "shortcutName": "Family Mart Control",
+      "installerIcon": "./familymart.jpeg",
+      "uninstallerIcon": "./familymart.jpeg",
+      "installerHeaderIcon": "./familymart.jpeg",
+      "include": "./familymart.jpeg"
     },
     "files": [
       "./main.js",
