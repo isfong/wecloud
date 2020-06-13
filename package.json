@@ -11,7 +11,7 @@
   },
   "build": {
     "productName": "Family Mart Control",
-    "appId": "org.simulatedgreg.electron-vue",
+    "appId": "com.bossdream.family.mart.control",
     "copyright": "昱昊互联网科技版权所有",
     "directories": {
       "output": "dist"
@@ -22,7 +22,10 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "Family Mart Control"
+      "shortcutName": "FamilyMartControl",
+      "installerIcon": "./icon.ico",
+      "uninstallerIcon": "./icon.ico",
+      "installerHeaderIcon": "./icon.ico"
     },
     "files": [
       "./main.js",
