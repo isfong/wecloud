@@ -29,7 +29,6 @@
     },
     "files": [
       "./main.js",
-      "./package.json",
       "dist/electron/**/*"
     ],
     "dmg": {
@@ -51,6 +50,7 @@
       "icon": "./familymart.jpeg"
     },
     "win": {
+      "icon": "./familymart.jpeg",
       "target": [
         {
           "target": "nsis",
