@@ -1,20 +1,23 @@
 {
-  "name": "familymart",
+  "name": "dyh",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "author": "isfong",
   "license": "CC0-1.0",
   "scripts": {
-    "start": "electron . --icon=familymart.png",
-    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=familymart.jpeg"
+    "start": "electron . --icon=dyh.png",
+    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=dyh.png"
   },
   "build": {
-    "productName": "Family Mart Control",
-    "appId": "com.bossdream.family.mart.control",
+    "productName": "戴永红管理平台",
+    "appId": "com.bossdream.dyh.control",
     "copyright": "昱昊互联网科技版权所有",
     "directories": {
       "output": "dist"
+    },
+    "electronDownload": {
+      "mirror": "https://npm.taobao.org/mirrors/electron/"
     },
     "nsis": {
       "oneClick": false,
@@ -22,7 +25,7 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "FamilyMartControl",
+      "shortcutName": "戴永红",
       "installerIcon": "./icon.ico",
       "uninstallerIcon": "./icon.ico",
       "installerHeaderIcon": "./icon.ico"
@@ -47,10 +50,10 @@
       ]
     },
     "mac": {
-      "icon": "./familymart.jpeg"
+      "icon": "./dyh.png"
     },
     "win": {
-      "icon": "./familymart.jpeg",
+      "icon": "./dyh.png",
       "target": [
         {
           "target": "nsis",
@@ -62,7 +65,7 @@
       ]
     },
     "linux": {
-      "icon": "./familymart.jpeg"
+      "icon": "./dyh.png"
     }
   },
   "devDependencies": {
