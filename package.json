@@ -1,17 +1,17 @@
 {
-  "name": "dyh",
+  "name": "qj",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "author": "isfong",
   "license": "CC0-1.0",
   "scripts": {
-    "start": "electron . --icon=dyh.png",
-    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=dyh.png"
+    "start": "electron . --icon=qj.png",
+    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=qj.png"
   },
   "build": {
-    "productName": "戴永红管理平台",
-    "appId": "com.bossdream.dyh.control",
+    "productName": "全家管理平台",
+    "appId": "com.bossdream.qj.control",
     "copyright": "昱昊互联网科技版权所有",
     "directories": {
       "output": "dist"
@@ -25,10 +25,10 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "戴永红",
-      "installerIcon": "./icon.ico",
-      "uninstallerIcon": "./icon.ico",
-      "installerHeaderIcon": "./icon.ico"
+      "shortcutName": "全家管理平台",
+      "installerIcon": "./qj.ico",
+      "uninstallerIcon": "./qj.ico",
+      "installerHeaderIcon": "./qj.ico"
     },
     "files": [
       "./main.js",
@@ -50,10 +50,10 @@
       ]
     },
     "mac": {
-      "icon": "./dyh.png"
+      "icon": "./qj.png"
     },
     "win": {
-      "icon": "./dyh.png",
+      "icon": "./qj.png",
       "target": [
         {
           "target": "nsis",
@@ -65,7 +65,7 @@
       ]
     },
     "linux": {
-      "icon": "./dyh.png"
+      "icon": "./qj.png"
     }
   },
   "devDependencies": {

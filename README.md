@@ -1,5 +1,3 @@
-# 腾讯微云Linux版
-
 # install
 ```shell script
 yarn
