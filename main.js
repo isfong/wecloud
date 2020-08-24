@@ -6,10 +6,10 @@ function createWindow() {
         width: 1400,
         height: 800,
         // icon: __dirname + '/dyh.png',
-        title: '见福/FOOK',
+        title: '友客/Youke',
         zoomToPageWidth: true,
     } );
-    win.loadURL( 'https://fook.bossdream.com/console' );
+    win.loadURL( 'https://youke.bossdream.com/console' );
     win.on( 'closed', () => {
         win = null
     } );

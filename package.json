@@ -1,17 +1,17 @@
 {
-  "name": "fook",
+  "name": "youke",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "author": "isfong",
   "license": "CC0-1.0",
   "scripts": {
-    "start": "electron . --icon=fook.png",
-    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=fook.png"
+    "start": "electron . --icon=youke.png",
+    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=youke.png"
   },
   "build": {
-    "productName": "见福管理平台",
-    "appId": "com.bossdream.fook.control",
+    "productName": "友客管理平台",
+    "appId": "com.bossdream.youke.control",
     "copyright": "昱昊互联网科技版权所有",
     "directories": {
       "output": "dist"
@@ -25,10 +25,10 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "见福管理平台",
-      "installerIcon": "./fook.ico",
-      "uninstallerIcon": "./fook.ico",
-      "installerHeaderIcon": "./fook.ico"
+      "shortcutName": "友客管理平台",
+      "installerIcon": "./youke.ico",
+      "uninstallerIcon": "./youke.ico",
+      "installerHeaderIcon": "./youke.ico"
     },
     "files": [
       "./main.js",
@@ -50,10 +50,10 @@
       ]
     },
     "mac": {
-      "icon": "./fook.png"
+      "icon": "./youke.png"
     },
     "win": {
-      "icon": "./fook.png",
+      "icon": "./youke.png",
       "target": [
         {
           "target": "nsis",
@@ -65,7 +65,7 @@
       ]
     },
     "linux": {
-      "icon": "./fook.png"
+      "icon": "./youke.png"
     }
   },
   "devDependencies": {
