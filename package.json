@@ -1,17 +1,17 @@
 {
-  "name": "qj",
+  "name": "fook",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "author": "isfong",
   "license": "CC0-1.0",
   "scripts": {
-    "start": "electron . --icon=qj.png",
-    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=qj.png"
+    "start": "electron . --icon=fook.png",
+    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=fook.png"
   },
   "build": {
-    "productName": "全家管理平台",
-    "appId": "com.bossdream.qj.control",
+    "productName": "见福管理平台",
+    "appId": "com.bossdream.fook.control",
     "copyright": "昱昊互联网科技版权所有",
     "directories": {
       "output": "dist"
@@ -25,10 +25,10 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "全家管理平台",
-      "installerIcon": "./qj.ico",
-      "uninstallerIcon": "./qj.ico",
-      "installerHeaderIcon": "./qj.ico"
+      "shortcutName": "见福管理平台",
+      "installerIcon": "./fook.ico",
+      "uninstallerIcon": "./fook.ico",
+      "installerHeaderIcon": "./fook.ico"
     },
     "files": [
       "./main.js",
@@ -50,10 +50,10 @@
       ]
     },
     "mac": {
-      "icon": "./qj.png"
+      "icon": "./fook.png"
     },
     "win": {
-      "icon": "./qj.png",
+      "icon": "./fook.png",
       "target": [
         {
           "target": "nsis",
@@ -65,7 +65,7 @@
       ]
     },
     "linux": {
-      "icon": "./qj.png"
+      "icon": "./fook.png"
     }
   },
   "devDependencies": {

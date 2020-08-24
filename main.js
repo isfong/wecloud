@@ -6,10 +6,10 @@ function createWindow() {
         width: 1400,
         height: 800,
         // icon: __dirname + '/dyh.png',
-        title: '全家/Family Mart',
+        title: '见福/FOOK',
         zoomToPageWidth: true,
     } );
-    win.loadURL( 'https://qj.bossdream.com/console/dashboard/data-center/data-repair' );
+    win.loadURL( 'https://fook.bossdream.com/console' );
     win.on( 'closed', () => {
         win = null
     } );
