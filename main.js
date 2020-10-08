@@ -9,7 +9,7 @@ function createWindow() {
         title: '友客/Youke',
         zoomToPageWidth: true,
     } );
-    win.loadURL( 'https://youke.bossdream.com/console' );
+    win.loadURL( 'https://www.bossdream.com/console/dashboard/data-center/data-repair?brand=youke' );
     win.on( 'closed', () => {
         win = null
     } );
