@@ -1,17 +1,17 @@
 {
-  "name": "youke",
+  "name": "zbls",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "author": "isfong",
   "license": "CC0-1.0",
   "scripts": {
-    "start": "electron . --icon=youke.png",
-    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=youke.png"
+    "start": "electron . --icon=zbls.png",
+    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=zbls.png"
   },
   "build": {
-    "productName": "友客管理平台",
-    "appId": "com.bossdream.youke.control",
+    "productName": "罗森管理平台",
+    "appId": "com.bossdream.zbls.control",
     "copyright": "昱昊互联网科技版权所有",
     "directories": {
       "output": "dist"
@@ -25,10 +25,10 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "友客管理平台",
-      "installerIcon": "./youke.ico",
-      "uninstallerIcon": "./youke.ico",
-      "installerHeaderIcon": "./youke.ico"
+      "shortcutName": "罗森管理平台",
+      "installerIcon": "./zbls.ico",
+      "uninstallerIcon": "./zbls.ico",
+      "installerHeaderIcon": "./zbls.ico"
     },
     "files": [
       "./main.js",
@@ -50,10 +50,10 @@
       ]
     },
     "mac": {
-      "icon": "./youke.png"
+      "icon": "./zbls.png"
     },
     "win": {
-      "icon": "./youke.png",
+      "icon": "./zbls.png",
       "target": [
         {
           "target": "nsis",
@@ -65,7 +65,7 @@
       ]
     },
     "linux": {
-      "icon": "./youke.png"
+      "icon": "./zbls.png"
     }
   },
   "devDependencies": {

@@ -6,10 +6,10 @@ function createWindow() {
         width: 1400,
         height: 800,
         // icon: __dirname + '/dyh.png',
-        title: '友客/Youke',
+        title: '罗森/LAWSON',
         zoomToPageWidth: true,
     } );
-    win.loadURL( 'https://www.bossdream.com/console/dashboard/data-center/data-repair?brand=youke' );
+    win.loadURL( 'https://www.bossdream.com/console/dashboard/data-center/data-repair?brand=zbls' );
     win.on( 'closed', () => {
         win = null
     } );
