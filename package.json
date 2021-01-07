@@ -1,17 +1,17 @@
 {
-  "name": "zbls",
+  "name": "czbl",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "author": "isfong",
   "license": "CC0-1.0",
   "scripts": {
-    "start": "electron . --icon=zbls.png",
-    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=zbls.png"
+    "start": "electron . --icon=czbl.png",
+    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=czbl.png"
   },
   "build": {
-    "productName": "罗森管理平台",
-    "appId": "com.bossdream.zbls.control",
+    "productName": "橙子便利管理平台",
+    "appId": "com.bossdream.czbl.control",
     "copyright": "昱昊互联网科技版权所有",
     "directories": {
       "output": "dist"
@@ -25,10 +25,10 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "罗森管理平台",
-      "installerIcon": "./zbls.ico",
-      "uninstallerIcon": "./zbls.ico",
-      "installerHeaderIcon": "./zbls.ico"
+      "shortcutName": "橙子便利管理平台",
+      "installerIcon": "./czbl.ico",
+      "uninstallerIcon": "./czbl.ico",
+      "installerHeaderIcon": "./czbl.ico"
     },
     "files": [
       "./main.js",
@@ -50,10 +50,10 @@
       ]
     },
     "mac": {
-      "icon": "./zbls.png"
+      "icon": "./czbl.png"
     },
     "win": {
-      "icon": "./zbls.png",
+      "icon": "./czbl.png",
       "target": [
         {
           "target": "nsis",
@@ -65,7 +65,7 @@
       ]
     },
     "linux": {
-      "icon": "./zbls.png"
+      "icon": "./czbl.png"
     }
   },
   "devDependencies": {
