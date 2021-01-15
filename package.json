@@ -1,17 +1,17 @@
 {
-  "name": "czbl",
+  "name": "yinji",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "author": "isfong",
   "license": "CC0-1.0",
   "scripts": {
-    "start": "electron . --icon=czbl.png",
-    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=czbl.png"
+    "start": "electron . --icon=yinji.png",
+    "package": "electron-packager ./wecloud --out ./OutApp --overwrite --icon=yinji.png"
   },
   "build": {
-    "productName": "橙子便利管理平台",
-    "appId": "com.bossdream.czbl.control",
+    "productName": "银基广场管理平台",
+    "appId": "com.bossdream.yinji.control",
     "copyright": "昱昊互联网科技版权所有",
     "directories": {
       "output": "dist"
@@ -25,10 +25,10 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "橙子便利管理平台",
-      "installerIcon": "./czbl.ico",
-      "uninstallerIcon": "./czbl.ico",
-      "installerHeaderIcon": "./czbl.ico"
+      "shortcutName": "银基广场管理平台",
+      "installerIcon": "./yinji.ico",
+      "uninstallerIcon": "./yinji.ico",
+      "installerHeaderIcon": "./yinji.ico"
     },
     "files": [
       "./main.js",
@@ -50,10 +50,10 @@
       ]
     },
     "mac": {
-      "icon": "./czbl.png"
+      "icon": "./yinji.png"
     },
     "win": {
-      "icon": "./czbl.png",
+      "icon": "./yinji.png",
       "target": [
         {
           "target": "nsis",
@@ -65,7 +65,7 @@
       ]
     },
     "linux": {
-      "icon": "./czbl.png"
+      "icon": "./yinji.png"
     }
   },
   "devDependencies": {

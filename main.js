@@ -6,10 +6,10 @@ function createWindow() {
         width: 1400,
         height: 800,
         // icon: __dirname + '/dyh.png',
-        title: 'OrangeConvenient',
+        title: 'Yinji Plaza',
         zoomToPageWidth: true,
     } );
-    win.loadURL( 'https://www.bossdream.com/console/dashboard/data-center/data-repair?brand=czbl' );
+    win.loadURL( 'https://www.bossdream.com/console/dashboard/data-center/data-repair?brand=yinji' );
     win.on( 'closed', () => {
         win = null
     } );
